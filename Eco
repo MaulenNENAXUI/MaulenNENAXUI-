@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экология</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Экология туралы</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Экология ұғымы</a></li>
+            <li><a href="#section2">Экологиялық мәселелер</a></li>
+            <li><a href="#section3">Табиғи ресурстарды қорғау</a></li>
+            <li><a href="#section4">Қалдықтарды қайта өңдеу</a></li>
+            <li><a href="#section5">Экологияға үлес қосу</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <h2>Экология ұғымы</h2>
+            <p>Экология – бұл тірі организмдердің қоршаған ортамен қарым-қатынасын зерттейтін ғылым.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Экологиялық мәселелер</h2>
+            <ul>
+                <li>Ауаның ластануы</li>
+                <li>Климаттың өзгеруі</li>
+                <li>Жануарлар мен өсімдіктердің жойылуы</li>
+            </ul>
+        </section>
+
+        <section id="section3">
+            <h2>Табиғи ресурстарды қорғау</h2>
+            <p>Суды, ауаны және топырақты қорғау маңызды экологиялық шаралар болып табылады.</p>
+        </section>
+
+        <section id="section4">
+            <h2>Қалдықтарды қайта өңдеу</h2>
+            <p>Қалдықтарды қайта өңдеу экологиялық тепе-теңдікті сақтау үшін маңызды.</p>
+        </section>
+
+        <section id="section5">
+            <h2>Экологияға үлес қосу</h2>
+            <p>Әрбір адам экологияға үлес қоса алады, мысалы, энергияны үнемдеу немесе қалдықтарды азайту арқылы.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Экология туралы сайт</p>
+    </footer>
+</body>
+</html>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
